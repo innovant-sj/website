@@ -1,0 +1,82 @@
+@media  screen and (max-width: 750px) {
+  .header .left_nav .p_nav {
+    background: #222;
+    position: absolute;
+    top: 100%;
+        left: 0;
+    z-index: 99;
+    box-shadow: 3px 5px 6px 0px #d8caca30;
+    border-radius: 0 0 8px 0;
+    display: none;
+
+  }
+  .header .left_nav .p_nav.open {
+      display: block;
+
+  }
+  .header .left_nav .mobile_hum{
+         color: #ffff;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    padding: 8px;
+  }
+  .header .left_nav .mobile_hum.open{
+     color: #222;
+    background: #fff;
+    border-radius: 5px;
+
+  
+    
+  }
+  .header .left_nav .p_nav ul{
+      display: block;
+  }
+  .header .left_nav .p_nav ul li a{
+
+        padding: 16px 11px;
+        display: flex;
+  }
+
+  .header .left_nav .p_nav ul li a i{
+    display: block;
+    margin-right: 6px;
+    font-size: 18px;
+  }
+
+}
+@media  screen and (max-width: 500px) {
+.header .right .name{
+  display: none;
+}
+.header .right i{
+  margin-left: 8px;
+}
+.home .logo_holder .logo{
+      transform: rotate(-45deg) scale(1.40);
+}
+.home .txt{
+  font-size: 30px;
+}
+}
+
+@media  screen and (max-width: 420px) {
+.main .nav_l_r .item .dis{
+  display: none;
+}
+
+.main .dis.mobile{
+    font: normal normal 300 14px/20px Segoe UI;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #222222;
+    display: block;
+    margin-bottom: 3px;
+    text-align: center;
+  margin-top: 14px;
+}
+.main .nav_l_r .item{
+  text-align: center;
+}
+
+}
